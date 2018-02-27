@@ -1,0 +1,140 @@
+body{
+    padding:0;
+    margin:0;
+    border:0;
+}
+
+/*
+通用css
+*/
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+/*
+导航css
+*/
+.container{
+    display:block;
+    width:100%;
+    height:55px;
+
+}
+.navigation{
+    width:1170px;
+    height:55px;
+    /*border-bottom:1px solid #ebebeb;*/
+    margin:0 auto;
+}
+.navigation h3 {
+    font: normal 21px/56px "黑体";
+    margin: 0;
+}
+.navigation h3 i{
+    display:inline-block;
+    width:31px;
+    height:31px;
+    background: url("../../img/task/book.jpg") no-repeat ;
+    margin:0px 10px -7px 0;
+}
+.navigation .nav_bar{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.navigation .nav_bar li {
+    float:left;
+    width:65px;
+    height:50px;
+    text-align:center;
+    cursor:pointer;
+    margin-right:20px;
+}
+.navigation .nav_bar li:hover{
+    border-bottom:5px solid red;
+}
+.navigation .nav_bar li a {
+    text-decoration: none;
+    font: normal 14px/55px "微软雅黑";
+    color: rgb(120,121,131);
+}
+
+.bigImg{
+    width:1280px;
+    height:854px;
+    margin:0 auto;
+    position:relative;
+}
+.bigImg .img_father{
+    width:1280px;
+    margin: 0 auto;
+    height: 100%;
+    position:relative;
+
+}
+.bigImg .img_father img{
+    display: block;
+    width: 1280px;
+    margin: 0 auto;
+    border:none;
+    vertical-align: top;
+}
+.bigImg .bg_start{
+    display:inline-block;
+    width:330px;
+    height:64px;
+    background-color:#e74f4d;
+    color:#fff;
+    font:normal 30px/65px "微软雅黑";
+    line-height:64px;
+    text-align:center;
+    text-decoration:none;
+    position:absolute;
+    left:125px;
+    top:430px;
+}
+
+.bigImg .bg_foot{
+    display:block;
+    width:100%;
+    height:250px;
+    background-color:#fff;
+    position:absolute;
+    bottom: -100px;
+}
+.bigImg .bg_foot ul {
+    padding: 100px 0;
+    margin: 0;
+    list-style:none;
+    width: 100%;
+    clear:both;
+}
+.bigImg .bg_foot ul li {
+    height: 50px;
+    font: normal 14px "黑体";
+    box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+    float:left;
+    width: 25% ;
+    border-right: 2px solid #aaa;
+    padding: 10px 68px;
+    text-align: center;
+    color: #767677;
+    width: 292px;
+    position:relative;
+}
+.bigImg .bg_foot ul li:last-child{
+    border:none;
+}
+.bigImg .bg_foot i{
+    display:block;
+    position:absolute;
+    width:42px;
+    height:42px;
+    background: url("../../img/task/icon1.jpg") no-repeat;
+    left: 50%;
+    bottom: 70px;
+}
