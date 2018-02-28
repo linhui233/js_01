@@ -36,7 +36,7 @@ body{
     display:inline-block;
     width:31px;
     height:31px;
-    background: url("../../img/task/book.jpg") no-repeat ;
+    background: url("../images/task/book.jpg") no-repeat ;
     margin:0px 10px -7px 0;
 }
 .navigation .nav_bar{
@@ -134,7 +134,7 @@ body{
     position:absolute;
     width:42px;
     height:42px;
-    background: url("../../img/task/icon1.jpg") no-repeat;
+    background: url("../images/task/icon1.jpg") no-repeat;
     left: 50%;
     bottom: 70px;
 }
